@@ -1,0 +1,48 @@
+name: QA Pipeline
+
+on:
+  push:
+    branches: [main, dev]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: qa-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  qa-gate:
+    name: Lint, tests y cobertura
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Instalar uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Instalar dependencias
+        run: uv sync --group dev --locked
+
+      - name: Gate estático (ruff check)
+        run: uv run ruff check .
+
+      - name: Gate de formato (ruff format)
+        run: uv run ruff format --check .
+
+      - name: Gate dinámico (pytest + cobertura 80%)
+        run: uv run pytest --cov=src --cov-report=term-missing --cov-report=html --cov-fail-under=80
+
+      - name: Subir reporte de cobertura
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-report
+          path: htmlcov/

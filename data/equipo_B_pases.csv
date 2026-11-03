@@ -1,0 +1,63 @@
+origen,destino,pases
+Portero,Defensa central derecho,6
+Portero,Defensa central izquierdo,5
+Portero,Lateral derecho,3
+Portero,Lateral izquierdo,3
+Portero,Delantero centro,4
+Portero,Segundo delantero,3
+Defensa central derecho,Portero,3
+Defensa central derecho,Defensa central izquierdo,7
+Defensa central derecho,Lateral derecho,5
+Defensa central derecho,Volante central derecho,10
+Defensa central derecho,Volante central izquierdo,6
+Defensa central derecho,Delantero centro,4
+Defensa central derecho,Volante derecho,2
+Defensa central izquierdo,Portero,3
+Defensa central izquierdo,Defensa central derecho,8
+Defensa central izquierdo,Lateral izquierdo,5
+Defensa central izquierdo,Volante central izquierdo,9
+Defensa central izquierdo,Volante central derecho,6
+Defensa central izquierdo,Segundo delantero,3
+Defensa central izquierdo,Volante izquierdo,2
+Lateral derecho,Defensa central derecho,5
+Lateral derecho,Volante derecho,8
+Lateral derecho,Volante central derecho,4
+Lateral derecho,Delantero centro,3
+Lateral izquierdo,Defensa central izquierdo,4
+Lateral izquierdo,Volante izquierdo,7
+Lateral izquierdo,Volante central izquierdo,5
+Lateral izquierdo,Segundo delantero,2
+Delantero centro,Volante central derecho,5
+Delantero centro,Volante central izquierdo,4
+Delantero centro,Segundo delantero,7
+Delantero centro,Volante derecho,2
+Delantero centro,Volante izquierdo,1
+Segundo delantero,Delantero centro,6
+Segundo delantero,Volante central izquierdo,4
+Segundo delantero,Volante central derecho,3
+Segundo delantero,Volante izquierdo,2
+Segundo delantero,Volante derecho,2
+Volante central derecho,Defensa central derecho,6
+Volante central derecho,Volante central izquierdo,11
+Volante central derecho,Volante derecho,7
+Volante central derecho,Delantero centro,9
+Volante central derecho,Segundo delantero,6
+Volante central derecho,Lateral derecho,3
+Volante central derecho,Defensa central izquierdo,4
+Volante central derecho,Volante izquierdo,3
+Volante central izquierdo,Defensa central izquierdo,7
+Volante central izquierdo,Volante central derecho,10
+Volante central izquierdo,Volante izquierdo,6
+Volante central izquierdo,Segundo delantero,8
+Volante central izquierdo,Delantero centro,6
+Volante central izquierdo,Lateral izquierdo,3
+Volante central izquierdo,Defensa central derecho,4
+Volante central izquierdo,Volante derecho,3
+Volante derecho,Lateral derecho,5
+Volante derecho,Volante central derecho,6
+Volante derecho,Delantero centro,5
+Volante derecho,Segundo delantero,3
+Volante izquierdo,Lateral izquierdo,4
+Volante izquierdo,Volante central izquierdo,6
+Volante izquierdo,Segundo delantero,5
+Volante izquierdo,Delantero centro,3

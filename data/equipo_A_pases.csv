@@ -1,0 +1,52 @@
+origen,destino,pases
+Portero,Defensa central derecho,8
+Portero,Defensa central izquierdo,7
+Portero,Lateral derecho,3
+Portero,Lateral izquierdo,3
+Portero,Volante de contención,2
+Defensa central derecho,Portero,4
+Defensa central derecho,Defensa central izquierdo,9
+Defensa central derecho,Lateral derecho,6
+Defensa central derecho,Volante de contención,12
+Defensa central derecho,Volante interior derecho,3
+Defensa central izquierdo,Portero,3
+Defensa central izquierdo,Defensa central derecho,10
+Defensa central izquierdo,Lateral izquierdo,5
+Defensa central izquierdo,Volante de contención,11
+Defensa central izquierdo,Volante interior izquierdo,4
+Lateral derecho,Defensa central derecho,5
+Lateral derecho,Volante interior derecho,9
+Lateral derecho,Extremo derecho,4
+Lateral derecho,Volante de contención,3
+Lateral izquierdo,Defensa central izquierdo,4
+Lateral izquierdo,Volante interior izquierdo,8
+Lateral izquierdo,Extremo izquierdo,4
+Lateral izquierdo,Volante de contención,2
+Volante de contención,Defensa central derecho,8
+Volante de contención,Defensa central izquierdo,7
+Volante de contención,Volante interior derecho,13
+Volante de contención,Volante interior izquierdo,12
+Volante de contención,Lateral derecho,4
+Volante de contención,Lateral izquierdo,3
+Volante de contención,Delantero centro,3
+Volante interior derecho,Volante de contención,9
+Volante interior derecho,Lateral derecho,6
+Volante interior derecho,Extremo derecho,8
+Volante interior derecho,Delantero centro,4
+Volante interior derecho,Volante interior izquierdo,5
+Volante interior izquierdo,Volante de contención,8
+Volante interior izquierdo,Lateral izquierdo,5
+Volante interior izquierdo,Extremo izquierdo,7
+Volante interior izquierdo,Delantero centro,5
+Volante interior izquierdo,Volante interior derecho,4
+Extremo derecho,Volante interior derecho,5
+Extremo derecho,Delantero centro,3
+Extremo derecho,Lateral derecho,2
+Extremo izquierdo,Volante interior izquierdo,4
+Extremo izquierdo,Delantero centro,3
+Extremo izquierdo,Lateral izquierdo,1
+Delantero centro,Volante interior derecho,3
+Delantero centro,Volante interior izquierdo,3
+Delantero centro,Extremo derecho,2
+Delantero centro,Extremo izquierdo,2
+Delantero centro,Volante de contención,2

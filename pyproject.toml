@@ -1,0 +1,45 @@
+[project]
+name = "proyecto-futbol-redes"
+version = "0.1.0"
+description = "Redes de pases de futbol - Matematica Discreta Aplicada (UFM)"
+requires-python = ">=3.11"
+dependencies = [
+    "networkx>=3.2",
+    "matplotlib>=3.8",
+    "pandas>=2.2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=5.0",
+    "hypothesis>=6.100",
+    "ruff>=0.5",
+    "pre-commit>=3.7",
+]
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+addopts = "-ra -q --strict-markers"
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = [
+    "unit: Pruebas unitarias de algoritmos y medidas",
+    "integration: Pruebas de integracion entre modulos",
+    "property: Pruebas basadas en propiedades (Hypothesis)",
+]
+
+[tool.coverage.run]
+branch = true
+source = ["src"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 80
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
