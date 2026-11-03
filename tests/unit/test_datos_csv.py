@@ -21,8 +21,15 @@ def test_columnas_esperadas(archivo):
 
 
 @pytest.mark.parametrize("archivo", ARCHIVOS)
-def test_dorsales_y_pases_validos(archivo):
+def test_pases_validos(archivo):
     for fila in _leer(archivo):
-        assert 1 <= int(fila["origen"]) <= 11
-        assert 1 <= int(fila["destino"]) <= 11
+        assert fila["origen"].strip() != ""
+        assert fila["destino"].strip() != ""
         assert int(fila["pases"]) > 0
+
+
+@pytest.mark.parametrize("archivo", ARCHIVOS)
+def test_once_jugadores(archivo):
+    filas = _leer(archivo)
+    jugadores = {f["origen"] for f in filas} | {f["destino"] for f in filas}
+    assert len(jugadores) == 11
