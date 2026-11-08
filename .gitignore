@@ -18,3 +18,7 @@ coverage.xml
 # Informe en construcción
 informe/*.aux
 informe/*.log
+
+#generador_context
+generador_contexto.py
+CONTEXT.md
