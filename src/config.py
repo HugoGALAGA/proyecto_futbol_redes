@@ -1,0 +1,28 @@
+EQUIPOS = {
+    "A": {
+        "Portero": {"dorsal": 1, "x": 5, "y": 50},
+        "Lateral derecho": {"dorsal": 2, "x": 25, "y": 12},
+        "Defensa central derecho": {"dorsal": 3, "x": 22, "y": 36},
+        "Defensa central izquierdo": {"dorsal": 4, "x": 22, "y": 64},
+        "Lateral izquierdo": {"dorsal": 5, "x": 25, "y": 88},
+        "Volante de contención": {"dorsal": 6, "x": 42, "y": 50},
+        "Volante interior derecho": {"dorsal": 7, "x": 55, "y": 30},
+        "Volante interior izquierdo": {"dorsal": 8, "x": 55, "y": 70},
+        "Delantero centro": {"dorsal": 9, "x": 85, "y": 50},
+        "Extremo derecho": {"dorsal": 10, "x": 78, "y": 12},
+        "Extremo izquierdo": {"dorsal": 11, "x": 78, "y": 88},
+    },
+    "B": {
+        "Portero": {"dorsal": 1, "x": 5, "y": 50},
+        "Lateral derecho": {"dorsal": 2, "x": 25, "y": 12},
+        "Defensa central derecho": {"dorsal": 3, "x": 22, "y": 36},
+        "Defensa central izquierdo": {"dorsal": 4, "x": 22, "y": 64},
+        "Lateral izquierdo": {"dorsal": 5, "x": 25, "y": 88},
+        "Volante central derecho": {"dorsal": 6, "x": 50, "y": 38},
+        "Volante derecho": {"dorsal": 7, "x": 55, "y": 12},
+        "Volante central izquierdo": {"dorsal": 8, "x": 50, "y": 62},
+        "Delantero centro": {"dorsal": 9, "x": 85, "y": 60},
+        "Segundo delantero": {"dorsal": 10, "x": 78, "y": 40},
+        "Volante izquierdo": {"dorsal": 11, "x": 55, "y": 88},
+    },
+}
