@@ -93,3 +93,7 @@ if __name__ == "__main__":
     UB = construir_no_dirigido("B", cargar_pases("B"))
     _imprimir_prim("A", prim_maximo(UA, "A", "Portero"))
     _imprimir_kruskal("B", kruskal_maximo(UB, "B"))
+
+if __name__ == "__main__":  # pragma: no cover
+    for eq in ("A", "B"):
+        ...

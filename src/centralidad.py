@@ -74,3 +74,7 @@ if __name__ == "__main__":
         T = construir_arbol(U, aristas)
         _imprimir(eq, tabla_completa(U, D))
         _imprimir_arbol(eq, tabla_arbol(T))
+
+if __name__ == "__main__":  # pragma: no cover
+    for eq in ("A", "B"):
+        ...
